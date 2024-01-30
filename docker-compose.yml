@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  healthcareauthorization.api:
+    image: ${DOCKER_REGISTRY-}healthcareauthorizationapi
+    build:
+      context: .
+      dockerfile: HealthCareAuthorization.Api/Dockerfile
