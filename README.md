@@ -1,1 +1,1 @@
-# HealthCareAutorization
+# HealthCareAuthorization
